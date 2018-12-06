@@ -55,7 +55,8 @@ a {
 	height: 700px;
 	width: 1200px;
 	background-image: url("../images/img-mission-background.jpg");
-
+	background-repeat: no-repeat;
+	padding-bottom: 150px;
 }
 
 .mission-title {
@@ -68,7 +69,7 @@ a {
 	width: 100%;
 }
 
-.mission-content {
+.mission-text {
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: center;
@@ -76,4 +77,170 @@ a {
 	height: 120px;
 	background-color: black;
 	width: 100%;
+}
+
+/* MIDDLE */
+
+.special-products {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	height: 400px
+}
+
+.special-title {
+	display: inline-flex;
+	justify-content: center;
+	width: 1000px;
+	height: 20px;
+	padding-bottom: 20px;
+}
+
+.special-text {
+	display: inline-flex;
+	justify-content: center;
+	width: 1000px;
+	height: 20px;
+	padding-bottom: 50px;
+}
+
+.special-first--items {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1000px;
+	height: 300px;
+}
+
+.special-second--items {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 1000px;
+	height: 300px;
+}
+
+.special-sub--items {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 300px;
+	height: 250px;
+}
+
+.special-sub--first-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-berryblitz.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.special-sub--first-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 0px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+	width: 300px;
+}
+
+.special-sub--second-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-spiced-rum.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.special-sub--second-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 0px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+	width: 300px;
+}
+
+.special-sub--third-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-donut.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.special-sub--third-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 0px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+	width: 300px;
+}
+
+.special-sub--fourth-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-myrtle-ave.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+}
+
+.special-sub--fourth-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 0px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+	width: 300px;
+	margin-left: 100px;
+}
+
+.special-sub--fifth-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-bedford-bizarre.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-right: 100px;
+}
+
+.special-sub--fifth-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 0px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+	width: 300px;
+	padding-right: 100px;
 }
