@@ -9,7 +9,7 @@ html, body {
 
 /* HEADER */
 
-.header {
+.top-header {
 	display: inline-flex;
 	position: fixed;
 	background-color: black;
