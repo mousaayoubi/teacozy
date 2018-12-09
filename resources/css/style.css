@@ -46,7 +46,7 @@ a {
 	padding: 20px;
 }
 
-/* TOP */
+/* MISSION */
 
 .mission-image {
 	display: inline-flex;
@@ -79,7 +79,7 @@ a {
 	width: 100%;
 }
 
-/* MIDDLE */
+/* SPCECIAL PRODUCTS */
 
 .special-products {
 	display: inline-flex;
@@ -242,4 +242,15 @@ a {
     margin-bottom: 10px;
 	width: 300px;
 	padding-right: 100px;
+}
+
+/* LOCATIONS */
+
+.locations {
+	display: inline-flex;
+	height: 500px;
+	width: 1200px;
+	margin-top: 250px;
+	background-image: url("../images/img-locations-background.jpg");
+	background-repeat: no-repeat;
 }
