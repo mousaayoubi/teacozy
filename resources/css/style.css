@@ -248,9 +248,58 @@ a {
 
 .locations {
 	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 	height: 500px;
 	width: 1200px;
 	margin-top: 250px;
 	background-image: url("../images/img-locations-background.jpg");
 	background-repeat: no-repeat;
+}
+
+h2.locations-title {
+	font-size: 1.5em;
+	padding-bottom: 15px;
+    margin-bottom: 0px;
+    height: 25px;
+}
+
+.locations-box {
+	display: inline-flex;
+	flex-direction: row;
+	height: 300px;
+	width: 980px;
+}
+
+.locations-first--box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	margin-right: 40px;
+	opacity: 1;
+}
+
+.locations-second--box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	margin-right: 40px;
+	opacity: 1;
+}
+
+.locations-third--box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	opacity: 1;
 }
