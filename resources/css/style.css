@@ -1,6 +1,7 @@
 html, body {
 	margin: 0;
 	font-family: Helvetica;
+	font-size: 22px;
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
@@ -53,11 +54,12 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 70px;
 	height: 700px;
 	width: 1200px;
 	background-image: url("../images/img-mission-background.jpg");
 	background-repeat: no-repeat;
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 }
 
 .mission-title {
@@ -65,9 +67,10 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 120px;
+	height: 150px;
 	background-color: black;
-	width: 100%;
+	width: 1200px;
+	padding-bottom: 20px;
 }
 
 .mission-text {
@@ -95,15 +98,12 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	width: 1000px;
-	height: 20px;
-	padding-bottom: 20px;
 }
 
 .special-text {
 	display: inline-flex;
 	justify-content: center;
 	width: 1000px;
-	height: 20px;
 	padding-bottom: 50px;
 }
 
@@ -145,11 +145,9 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	height: 0px;
-    padding-top: 10px;
+	height: 20px;
     margin-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 	width: 300px;
 }
 
@@ -167,11 +165,9 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	height: 0px;
-    padding-top: 10px;
+	height: 20px;
     margin-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 	width: 300px;
 }
 
@@ -189,11 +185,9 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	height: 0px;
-    padding-top: 10px;
+	height: 20px;
     margin-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 	width: 300px;
 }
 
@@ -205,20 +199,16 @@ a {
 	background-image: url("../images/img-myrtle-ave.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin-left: 100px;
 }
 
 .special-sub--fourth-text {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	height: 0px;
-    padding-top: 10px;
+	height: 20px;
     margin-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 	width: 300px;
-	margin-left: 100px;
 }
 
 .special-sub--fifth-image {
@@ -229,20 +219,18 @@ a {
 	background-image: url("../images/img-bedford-bizarre.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-right: 100px;
+	margin-right: 150px;
 }
 
 .special-sub--fifth-text {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	height: 0px;
-    padding-top: 10px;
+	height: 20px;
     margin-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 	width: 300px;
-	padding-right: 100px;
+	margin-right: 150px;
 }
 
 /* LOCATIONS */
@@ -254,16 +242,16 @@ a {
 	align-items: center;
 	height: 500px;
 	width: 1200px;
-	margin-top: 250px;
+	margin-top: 350px;
 	background-image: url("../images/img-locations-background.jpg");
 	background-repeat: no-repeat;
 }
 
 h2.locations-title {
 	font-size: 1.5em;
-	padding-bottom: 15px;
-    margin-bottom: 0px;
-    height: 25px;
+	padding-bottom: 0px;
+    margin-bottom: 15px;
+    height: 35px;
 }
 
 .locations-box {
@@ -311,6 +299,7 @@ h2.locations-title {
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	height: 200px;
 	width: 1200px;
 }
