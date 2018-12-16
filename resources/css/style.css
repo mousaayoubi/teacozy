@@ -11,6 +11,14 @@ body {
 	background-color: black;
 }
 
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* HEADER */
+
 header {
 	display: flex;
 	z-index: 1;
@@ -77,6 +85,7 @@ nav.menu {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	border: 1px solid seashell;
+	padding-bottom: 40px;
 }
 
 
@@ -105,4 +114,29 @@ h4.products {
 
 .products-cont.bedford {
 	padding-right: 100px;
+}
+
+/* LOCATIONS */
+
+.locations {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 1200px;
+	height: 500px;
+	border: 1px solid grey;
+	background-image: url(../images/img-locations-background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.locations-box {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 350px;
+	background-color: black;
+	text-align: center;
 }
