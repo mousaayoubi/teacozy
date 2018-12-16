@@ -11,9 +11,18 @@ body {
 	background-color: black;
 }
 
+<<<<<<< HEAD
 header {
 	display: flex;
 	z-index: 1;
+=======
+/* HEADER */
+
+.top-header {
+	display: flex;
+	position: fixed;
+	background-color: black;
+>>>>>>> bc318d5b2fea5630aa3081349af429bd40464db3
 	align-items: center;
 	width: 100%;
 	height: 69px;
@@ -57,5 +66,233 @@ nav.menu {
 	align-items: center;
 	height: 150px;
 	width: 100%;
+<<<<<<< HEAD
+=======
+}
+
+/* SPCECIAL PRODUCTS */
+
+.special-products {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	height: 400px
+}
+
+.special-title {
+	display: inline-flex;
+	justify-content: center;
+	width: 1000px;
+}
+
+.special-text {
+	display: inline-flex;
+	justify-content: center;
+	width: 1000px;
+	padding-bottom: 50px;
+}
+
+.special-first--items {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1000px;
+	height: 300px;
+}
+
+.special-second--items {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 1000px;
+	height: 300px;
+}
+
+.special-sub--items {
+	width: 300px;
+}
+
+.special-sub--first-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-berryblitz.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.special-sub--first-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	width: 300px;
+}
+
+.special-sub--second-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-spiced-rum.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.special-sub--second-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	width: 300px;
+}
+
+.special-sub--third-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-donut.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.special-sub--third-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	width: 300px;
+}
+
+.special-sub--fourth-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-myrtle-ave.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.special-sub--fourth-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	width: 300px;
+}
+
+.special-sub--fifth-image {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	background-image: url("../images/img-bedford-bizarre.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 150px;
+}
+
+.special-sub--fifth-text {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	width: 300px;
+	margin-right: 150px;
+}
+
+/* LOCATIONS */
+
+.locations {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 500px;
+	width: 1200px;
+	margin-top: 350px;
+	background-image: url("../images/img-locations-background.jpg");
+	background-repeat: no-repeat;
+}
+
+h2.locations-title {
+	font-size: 1.5em;
+	padding-bottom: 0px;
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+.locations-box {
+	display: inline-flex;
+	flex-direction: row;
+	height: 300px;
+	width: 980px;
+}
+
+.locations-first--box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	margin-right: 40px;
+	opacity: 1;
+}
+
+.locations-second--box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	width: 300px;
+>>>>>>> bc318d5b2fea5630aa3081349af429bd40464db3
 	background-color: black;
 }
+<<<<<<< HEAD
+=======
+
+.locations-third--box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	opacity: 1;
+}
+
+/* CONTACT */
+
+.contact {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	width: 1200px;
+}
+
+/* FOOTER */
+
+.footer {
+	margin-left: 20px;
+	text-align: left;
+}
+>>>>>>> bc318d5b2fea5630aa3081349af429bd40464db3
