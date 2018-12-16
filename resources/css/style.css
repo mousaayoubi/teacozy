@@ -15,7 +15,7 @@ header {
 	display: flex;
 	z-index: 1;
 	align-items: center;
-	width: 100%;
+	width: 1200px;
 	height: 69px;
 	border-bottom: 1px solid seashell;
 }
@@ -58,4 +58,51 @@ nav.menu {
 	height: 150px;
 	width: 100%;
 	background-color: black;
+}
+
+/* PRODUCTS */
+
+.products {
+	margin: auto;
+	width: 1200px;
+	border: 1px solid seashell;
+	text-align: center;
+}
+
+.products-container {
+	margin: 0 auto;
+	display: flex;
+	width: 1000px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border: 1px solid seashell;
+}
+
+
+.products-cont {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	border: 1px solid grey;
+	padding-bottom: 10px;
+}
+
+.products-cont img {
+	height: 200px;
+	width: 300px;
+}
+
+h4.products {
+	height: 40px;
+	width: 300px;
+	padding-top: 10px;
+}
+
+.products-cont.myrtle {
+	padding-left: 100px;
+}
+
+.products-cont.bedford {
+	padding-right: 100px;
 }
