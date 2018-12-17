@@ -11,12 +11,6 @@ body {
 	background-color: black;
 }
 
-.container {
-	width: 1200px;
-	margin: 0 auto;
-	text-align: center;
-}
-
 /* HEADER */
 
 header {
@@ -51,7 +45,6 @@ nav.menu {
 	align-items: center;
 	height: 700px;
 	width: 1200px;
-	border: 1px solid seashell;
 	background-image: url("../images/img-mission-background.jpg");
 	background-size: cover;
 	background-position: center;
@@ -73,7 +66,6 @@ nav.menu {
 .products {
 	margin: auto;
 	width: 1200px;
-	border: 1px solid seashell;
 	text-align: center;
 }
 
@@ -84,7 +76,6 @@ nav.menu {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border: 1px solid seashell;
 	padding-bottom: 40px;
 }
 
@@ -93,7 +84,6 @@ nav.menu {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
-	border: 1px solid grey;
 	padding-bottom: 10px;
 }
 
@@ -118,25 +108,44 @@ h4.products {
 
 /* LOCATIONS */
 
-.locations {
+.locations.banner {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	width: 1200px;
+	justify-content: center;
 	height: 500px;
-	border: 1px solid grey;
-	background-image: url(../images/img-locations-background.jpg);
+	width: 1200px;
+	background-image: url('../images/img-locations-background.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.locations-box {
+.locations.box {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	width: 980px;
+}
+
+.locations.box h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.locations.content {
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	width: 980px;
+}
+
+.locations.content.box {
+	display: flex;
+	justify-content: space-around;
+	height: 300px;
 	width: 300px;
-	height: 350px;
 	background-color: black;
+	opacity: 1;
 	text-align: center;
 }
